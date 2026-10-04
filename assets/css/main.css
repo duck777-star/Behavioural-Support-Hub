@@ -24,6 +24,27 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
+.separator {
+  letter-spacing: 0em;
+  margin-top: 0px;
+  margin-bottom: -2em;
+  font-size: 150%;
+}
+
+.nested-list{
+  list-style-type: none;
+}
+
+.nested-list li a {
+  display: block;
+  padding: 1em 0;
+  line-height: 1.5;
+  border: 0;
+  color: inherit;
+}
+
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -164,9 +185,9 @@ h2, h3, h4, h5, h6 {
   font-weight: 900;
   line-height: 1.5;
   margin: 0 0 2em 0;
-  text-transform: uppercase;
-  letter-spacing: 0.35em;
+  letter-spacing: 0;
 }
+
 h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
 }
@@ -2601,3 +2622,5 @@ body.is-menu-visible #menu .close {
     padding: 0 1.25em;
   }
 }/*# sourceMappingURL=main.css.map */
+
+
